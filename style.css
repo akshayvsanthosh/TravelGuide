@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100%;
+    position: relative;
+    background-image: url("./images/background.avif");
+    width: 100%;
+    min-height: 586px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#home{
+    width: 100%;   
+    min-height: 586px;
+
+}
+
+#header{
+    width: 100%;
+}
+
+.nav-heads{
+    margin: 0px 23px;
+}
+
+.home-right{
+    margin-top: 65px;
+}
+
+.home-head{
+    font-weight: 900;
+    line-height: 70px;
+    color: orange;
+}
+
+.home-subhead{
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-size: 41px;
+    font-style: normal;
+    line-height: 70px;
+    color: orange;
+}
+
+.bttn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.enq-bttn{
+    background-color: #278d27;
+    color: #fff;
+    border: 0px;
+    padding: 0px 6px;
+    height: 30px;
+}    
+
+.footer-modal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.modal-bttn{
+    background-color: purple;
+}
+
+#packages{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.card-col{
+    display: flex;
+    justify-content: space-around;
+}
+
+#kerala-tour{
+    width: 100%;
+    background-color: #f5f6ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.carousel-bg1{
+    background-image: url("./images/carousel1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.carousel-bg2{
+    background-image: url("./images/carousel2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.carousel-bg3{
+    background-image: url("./images/carouseal3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+#north-tour{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.image-north{
+    position: relative;
+}
+
+.north-caption{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #2dc3a5;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+#features{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#customer{
+    width: 100%;
+    background-color: #dfdfdf;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.customer-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;    
+}
+
+.feature-col{
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer{
+    width: 100%;
+    display: flex;
+    background-color: #0f254e;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#footer-note{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+html{
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.card-col:hover{
+    box-shadow: -3px 8px 3px;
+}
+
+.packages-bttn:hover{
+    background-color: orange;
+}
+
+.north-caption:hover{
+    opacity: 0.8;
+}
+
